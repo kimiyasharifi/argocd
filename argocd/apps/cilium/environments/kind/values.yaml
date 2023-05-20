@@ -1,0 +1,11 @@
+---
+cilium:
+  image:
+    pullPolicy: IfNotPresent
+    useDigest: false
+  operator:
+    image:
+      pullPolicy: IfNotPresent
+      useDigest: false
+  ipam:
+    mode: kubernetes

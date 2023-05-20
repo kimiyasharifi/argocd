@@ -1,0 +1,6 @@
+---
+mariadb:
+  commonAnnotations:
+    avp.kubernetes.io/path: "kv_secrets/data/apps/mariadb"
+  auth:
+    rootPassword: "<root_password>"
